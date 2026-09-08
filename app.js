@@ -746,7 +746,7 @@ function wire(){
   $('#houseCountOptions').addEventListener('click',e=>{const b=e.target.closest('[data-house-count]');if(b)setHouseCount(+b.dataset.houseCount);});
   $('#outcomeRows').addEventListener('click',e=>{const row=e.target.closest('.outcome-row');if(!row)return;const bet=e.target.closest('.bet-toggle');if(bet){toggleBetType(row);scheduleSureRecalc();return}const fix=e.target.closest('.fix-stake-btn');if(fix){setFixedRow(row);APP.stakeMode='auto';resetSureDisplay();scheduleSureRecalc();return}});
   $('#outcomeRows').addEventListener('change',e=>{const row=e.target.closest('.outcome-row');if(!row)return;if(e.target.matches('.out-house'))applyHouseDefaults(row);if(e.target.matches('.out-freebet,.out-commission-enabled,.out-boost-enabled')){updateOutcomeRowUI(row);}resetSureDisplay();scheduleSureRecalc();});
-  const handleSureNumericEdit=e=>{const row=e.target.closest('.outcome-row');if(!row)return;if(e.target.matches('.out-stake')){const idx=+$$('.outcome-row').indexOf(row);if(idx!==APP.fixedLegIndex||APP.editingSureId)APP.stakeMode='manual';}updateOutcomeRowUI(row);if(e.target.matches('.out-odd,.out-stake,.out-commission,.out-boost'))scheduleSureRecalc(90);};
+  const handleSureNumericEdit=e=>{const row=e.target.closest('.outcome-row');if(!row)return;if(e.target.matches('.out-stake')){APP.stakeMode='manual';}updateOutcomeRowUI(row);if(e.target.matches('.out-odd,.out-stake,.out-commission,.out-boost'))scheduleSureRecalc(90);};
   $('#outcomeRows').addEventListener('input',handleSureNumericEdit);
   $('#sureEvent')?.addEventListener('input',updateTeamEventPreview);
   $('#outcomeRows').addEventListener('keyup',handleSureNumericEdit);
