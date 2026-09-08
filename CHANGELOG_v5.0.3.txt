@@ -1,0 +1,8 @@
+SureControl v5.0.3
+
+- Recentes: confrontos com escudo antes de cada time e composição centralizada
+- Ícone Freebet da Home novamente com caixa/contorno no mesmo padrão dos demais atalhos
+- Ícone Freebet segue monocromático no menu e modo escuro
+- Etiquetas do card movidas para o canto inferior esquerdo, no lugar do antigo SureControl
+- Gráfico passa a acompanhar a paleta preto/branco em vez do azul residual
+- Nenhuma lógica financeira, de sync, freebets ou giros alterada

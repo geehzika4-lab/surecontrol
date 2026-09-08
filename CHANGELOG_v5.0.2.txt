@@ -1,0 +1,9 @@
+SureControl v5.0.2 — refino monocromático e histórico
+
+- remove resquícios azuis da interface institucional; preto/branco como padrão
+- ícone Freebet sem fundo no claro e escuro, com o mesmo peso dos demais
+- histórico mobile reorganizado com confronto e escudos no padrão visual do card
+- card PNG: etiquetas discretas movidas para o rodapé esquerdo
+- marca SureControl removida do rodapé do card; crédito do desenvolvedor preservado
+- nenhuma regra financeira, cálculo, sync, freebet, giro ou persistência foi alterada
+- pacote PATCH sem assets para atualização rápida sobre a v5.0.1/v5.0.0 existente

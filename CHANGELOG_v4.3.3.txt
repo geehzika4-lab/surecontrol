@@ -1,0 +1,6 @@
+SureControl v4.3.3 — ajustes de visibilidade e enquadramento
+
+- melhor visibilidade da aba ativa “Adicionar freebet” no tema claro
+- ícone de Freebets padronizado nos atalhos com a mesma cor-base dos demais ícones
+- prévia do card da surebet com melhor enquadramento e centralização
+- card PNG com layout mais compacto para aparecer melhor no preview mobile

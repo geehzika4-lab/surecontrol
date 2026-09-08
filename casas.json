@@ -1,0 +1,1374 @@
+[
+  {
+    "id": "1pra1",
+    "nome": "1PRA1",
+    "dominio": "1pra1.bet.br",
+    "logo": "assets/bets/1pra1.png",
+    "temLogo": true
+  },
+  {
+    "id": "1xbet",
+    "nome": "1XBET",
+    "dominio": "1xbet.bet.br",
+    "logo": "assets/bets/1xbet.png",
+    "temLogo": true
+  },
+  {
+    "id": "4play",
+    "nome": "4PLAY",
+    "dominio": "4play.bet.br",
+    "logo": "assets/bets/4play.png",
+    "temLogo": true
+  },
+  {
+    "id": "4win",
+    "nome": "4WIN",
+    "dominio": "4win.bet.br",
+    "logo": "assets/bets/4win.png",
+    "temLogo": true
+  },
+  {
+    "id": "55w",
+    "nome": "55W",
+    "dominio": "55w.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "5g",
+    "nome": "5G",
+    "dominio": "5g.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "6r",
+    "nome": "6R",
+    "dominio": "6r.bet.br",
+    "logo": "assets/bets/6r.png",
+    "temLogo": true
+  },
+  {
+    "id": "6z",
+    "nome": "6Z",
+    "dominio": "6z.bet.br",
+    "logo": "assets/bets/6z.png",
+    "temLogo": true
+  },
+  {
+    "id": "7games",
+    "nome": "7GAMES",
+    "dominio": "7games.bet.br",
+    "logo": "assets/bets/7games.png",
+    "temLogo": true
+  },
+  {
+    "id": "7k",
+    "nome": "7K",
+    "dominio": "7k.bet.br",
+    "logo": "assets/bets/7k.png",
+    "temLogo": true
+  },
+  {
+    "id": "9d",
+    "nome": "9D",
+    "dominio": "9d.bet.br",
+    "logo": "assets/bets/9d.png",
+    "temLogo": true
+  },
+  {
+    "id": "9f",
+    "nome": "9F",
+    "dominio": "9f.bet.br",
+    "logo": "assets/bets/9f.png",
+    "temLogo": true
+  },
+  {
+    "id": "a247",
+    "nome": "A247",
+    "dominio": "a247.bet.br",
+    "logo": "assets/bets/a247.png",
+    "temLogo": true
+  },
+  {
+    "id": "afun",
+    "nome": "AFUN",
+    "dominio": "afun.bet.br",
+    "logo": "assets/bets/afun.png",
+    "temLogo": true
+  },
+  {
+    "id": "ai",
+    "nome": "AI",
+    "dominio": "ai.bet.br",
+    "logo": "assets/bets/ai.png",
+    "temLogo": true
+  },
+  {
+    "id": "alfa",
+    "nome": "ALFA",
+    "dominio": "alfa.bet.br",
+    "logo": "assets/bets/alfa.png",
+    "temLogo": true
+  },
+  {
+    "id": "aposta",
+    "nome": "APOSTA",
+    "dominio": "aposta.bet.br",
+    "logo": "assets/bets/aposta.png",
+    "temLogo": true
+  },
+  {
+    "id": "aposta1",
+    "nome": "APOSTA1",
+    "dominio": "aposta1.bet.br",
+    "logo": "assets/bets/aposta1.png",
+    "temLogo": true
+  },
+  {
+    "id": "apostaganha",
+    "nome": "APOSTAGANHA",
+    "dominio": "apostaganha.bet.br",
+    "logo": "assets/bets/apostaganha.png",
+    "temLogo": true
+  },
+  {
+    "id": "apostamax",
+    "nome": "APOSTAMAX",
+    "dominio": "apostamax.bet.br",
+    "logo": "assets/bets/apostamax.png",
+    "temLogo": true
+  },
+  {
+    "id": "apostar",
+    "nome": "APOSTAR",
+    "dominio": "apostar.bet.br",
+    "logo": "assets/bets/apostar.png",
+    "temLogo": true
+  },
+  {
+    "id": "apostatudo",
+    "nome": "APOSTATUDO",
+    "dominio": "apostatudo.bet.br",
+    "logo": "assets/bets/apostatudo.png",
+    "temLogo": true
+  },
+  {
+    "id": "apostou",
+    "nome": "APOSTOU",
+    "dominio": "apostou.bet.br",
+    "logo": "assets/bets/apostou.png",
+    "temLogo": true
+  },
+  {
+    "id": "arenaplus",
+    "nome": "ARENAPLUS",
+    "dominio": "arenaplus.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "aviao",
+    "nome": "AVIAO",
+    "dominio": "aviao.bet.br",
+    "logo": "assets/bets/aviao.png",
+    "temLogo": true
+  },
+  {
+    "id": "b1bet",
+    "nome": "B1BET",
+    "dominio": "b1bet.bet.br",
+    "logo": "assets/bets/b1bet.png",
+    "temLogo": true
+  },
+  {
+    "id": "b2x",
+    "nome": "B2X",
+    "dominio": "b2x.bet.br",
+    "logo": "assets/bets/b2x.png",
+    "temLogo": true
+  },
+  {
+    "id": "bacanaplay",
+    "nome": "BACANAPLAY",
+    "dominio": "bacanaplay.bet.br",
+    "logo": "assets/bets/bacanaplay.png",
+    "temLogo": true
+  },
+  {
+    "id": "bandbet",
+    "nome": "BANDBET",
+    "dominio": "bandbet.bet.br",
+    "logo": "assets/bets/bandbet.png",
+    "temLogo": true
+  },
+  {
+    "id": "bateu",
+    "nome": "BATEU",
+    "dominio": "bateu.bet.br",
+    "logo": "assets/bets/bateu.png",
+    "temLogo": true
+  },
+  {
+    "id": "bau",
+    "nome": "BAU",
+    "dominio": "bau.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "bet365",
+    "nome": "BET365",
+    "dominio": "bet365.bet.br",
+    "logo": "assets/bets/bet365.png",
+    "temLogo": true
+  },
+  {
+    "id": "bet4",
+    "nome": "BET4",
+    "dominio": "bet4.bet.br",
+    "logo": "assets/bets/bet4.png",
+    "temLogo": true
+  },
+  {
+    "id": "betaki",
+    "nome": "BETAKI",
+    "dominio": "betaki.bet.br",
+    "logo": "assets/bets/betaki.png",
+    "temLogo": true
+  },
+  {
+    "id": "betano",
+    "nome": "BETANO",
+    "dominio": "betano.bet.br",
+    "logo": "assets/bets/betano.png",
+    "temLogo": true
+  },
+  {
+    "id": "betao",
+    "nome": "BETAO",
+    "dominio": "betao.bet.br",
+    "logo": "assets/bets/betao.png",
+    "temLogo": true
+  },
+  {
+    "id": "betapp",
+    "nome": "BETAPP",
+    "dominio": "betapp.bet.br",
+    "logo": "assets/bets/betapp.png",
+    "temLogo": true
+  },
+  {
+    "id": "betboo",
+    "nome": "BETBOO",
+    "dominio": "betboo.bet.br",
+    "logo": "assets/bets/betboo.png",
+    "temLogo": true
+  },
+  {
+    "id": "betboom",
+    "nome": "BETBOOM",
+    "dominio": "betboom.bet.br",
+    "logo": "assets/bets/betboom.png",
+    "temLogo": true
+  },
+  {
+    "id": "betbra",
+    "nome": "BETBRA",
+    "dominio": "betbra.bet.br",
+    "logo": "assets/bets/betbra.png",
+    "temLogo": true
+  },
+  {
+    "id": "betbuffalos",
+    "nome": "BETBUFFALOS",
+    "dominio": "betbuffalos.bet.br",
+    "logo": "assets/bets/betbuffalos.png",
+    "temLogo": true
+  },
+  {
+    "id": "betcaixa",
+    "nome": "BETCAIXA",
+    "dominio": "betcaixa.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "betcopa",
+    "nome": "BETCOPA",
+    "dominio": "betcopa.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "betdasorte",
+    "nome": "BETDASORTE",
+    "dominio": "betdasorte.bet.br",
+    "logo": "assets/bets/betdasorte.png",
+    "temLogo": true
+  },
+  {
+    "id": "betespecial",
+    "nome": "BETESPECIAL",
+    "dominio": "betespecial.bet.br",
+    "logo": "assets/bets/betespecial.png",
+    "temLogo": true
+  },
+  {
+    "id": "betesporte",
+    "nome": "BETESPORTE",
+    "dominio": "betesporte.bet.br",
+    "logo": "assets/bets/betesporte.png",
+    "temLogo": true
+  },
+  {
+    "id": "betfair",
+    "nome": "BETFAIR",
+    "dominio": "betfair.bet.br",
+    "logo": "assets/bets/betfair.png",
+    "temLogo": true
+  },
+  {
+    "id": "betfalcons",
+    "nome": "BETFALCONS",
+    "dominio": "betfalcons.bet.br",
+    "logo": "assets/bets/betfalcons.png",
+    "temLogo": true
+  },
+  {
+    "id": "betfast",
+    "nome": "BETFAST",
+    "dominio": "betfast.bet.br",
+    "logo": "assets/bets/betfast.png",
+    "temLogo": true
+  },
+  {
+    "id": "betfusion",
+    "nome": "BETFUSION",
+    "dominio": "betfusion.bet.br",
+    "logo": "assets/bets/betfusion.png",
+    "temLogo": true
+  },
+  {
+    "id": "betgo",
+    "nome": "BETGO",
+    "dominio": "betgo.bet.br",
+    "logo": "assets/bets/betgo.png",
+    "temLogo": true
+  },
+  {
+    "id": "betgorillas",
+    "nome": "BETGORILLAS",
+    "dominio": "betgorillas.bet.br",
+    "logo": "assets/bets/betgorillas.png",
+    "temLogo": true
+  },
+  {
+    "id": "betmgm",
+    "nome": "BETMGM",
+    "dominio": "betmgm.bet.br",
+    "logo": "assets/bets/betmgm.png",
+    "temLogo": true
+  },
+  {
+    "id": "betnacional",
+    "nome": "BETNACIONAL",
+    "dominio": "betnacional.bet.br",
+    "logo": "assets/bets/betnacional.png",
+    "temLogo": true
+  },
+  {
+    "id": "betou",
+    "nome": "BETOU",
+    "dominio": "betou.bet.br",
+    "logo": "assets/bets/betou.png",
+    "temLogo": true
+  },
+  {
+    "id": "betpark",
+    "nome": "BETPARK",
+    "dominio": "betpark.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "betpix365",
+    "nome": "BETPIX365",
+    "dominio": "betpix365.bet.br",
+    "logo": "assets/bets/betpix365.png",
+    "temLogo": true
+  },
+  {
+    "id": "betpontobet",
+    "nome": "BETPONTOBET",
+    "dominio": "betpontobet.bet.br",
+    "logo": "assets/bets/betpontobet.png",
+    "temLogo": true
+  },
+  {
+    "id": "betsson",
+    "nome": "BETSSON",
+    "dominio": "betsson.bet.br",
+    "logo": "assets/bets/betsson.png",
+    "temLogo": true
+  },
+  {
+    "id": "betsul",
+    "nome": "BETSUL",
+    "dominio": "betsul.bet.br",
+    "logo": "assets/bets/betsul.png",
+    "temLogo": true
+  },
+  {
+    "id": "betvip",
+    "nome": "BETVIP",
+    "dominio": "betvip.bet.br",
+    "logo": "assets/bets/betvip.png",
+    "temLogo": true
+  },
+  {
+    "id": "betwarrior",
+    "nome": "BETWARRIOR",
+    "dominio": "betwarrior.bet.br",
+    "logo": "assets/bets/betwarrior.png",
+    "temLogo": true
+  },
+  {
+    "id": "big",
+    "nome": "BIG",
+    "dominio": "big.bet.br",
+    "logo": "assets/bets/big.png",
+    "temLogo": true
+  },
+  {
+    "id": "bingo",
+    "nome": "BINGO",
+    "dominio": "bingo.bet.br",
+    "logo": "assets/bets/bingo.png",
+    "temLogo": true
+  },
+  {
+    "id": "bingoplus",
+    "nome": "BINGOPLUS",
+    "dominio": "bingoplus.bet.br",
+    "logo": "assets/bets/bingoplus.png",
+    "temLogo": true
+  },
+  {
+    "id": "blaze",
+    "nome": "BLAZE",
+    "dominio": "blaze.bet.br",
+    "logo": "assets/bets/blaze.png",
+    "temLogo": true
+  },
+  {
+    "id": "bolsadeaposta",
+    "nome": "BOLSADEAPOSTA",
+    "dominio": "bolsadeaposta.bet.br",
+    "logo": "assets/bets/bolsadeaposta.png",
+    "temLogo": true
+  },
+  {
+    "id": "br4",
+    "nome": "BR4",
+    "dominio": "br4.bet.br",
+    "logo": "assets/bets/br4.png",
+    "temLogo": true
+  },
+  {
+    "id": "bra",
+    "nome": "BRA",
+    "dominio": "bra.bet.br",
+    "logo": "assets/bets/bra.png",
+    "temLogo": true
+  },
+  {
+    "id": "brasil",
+    "nome": "BRASIL",
+    "dominio": "brasil.bet.br",
+    "logo": "assets/bets/brasil.png",
+    "temLogo": true
+  },
+  {
+    "id": "brasildasorte",
+    "nome": "BRASILDASORTE",
+    "dominio": "brasildasorte.bet.br",
+    "logo": "assets/bets/brasildasorte.png",
+    "temLogo": true
+  },
+  {
+    "id": "bravo",
+    "nome": "BRAVO",
+    "dominio": "bravo.bet.br",
+    "logo": "assets/bets/bravo.png",
+    "temLogo": true
+  },
+  {
+    "id": "brazino777",
+    "nome": "BRAZINO777",
+    "dominio": "brazino777.bet.br",
+    "logo": "assets/bets/brazino777.png",
+    "temLogo": true
+  },
+  {
+    "id": "brbet",
+    "nome": "BRBET",
+    "dominio": "brbet.bet.br",
+    "logo": "assets/bets/brbet.png",
+    "temLogo": true
+  },
+  {
+    "id": "brx",
+    "nome": "BRX",
+    "dominio": "brx.bet.br",
+    "logo": "assets/bets/brx.png",
+    "temLogo": true
+  },
+  {
+    "id": "bullsbet",
+    "nome": "BULLSBET",
+    "dominio": "bullsbet.bet.br",
+    "logo": "assets/bets/bullsbet.png",
+    "temLogo": true
+  },
+  {
+    "id": "bz",
+    "nome": "BZ",
+    "dominio": "bz.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "caesars",
+    "nome": "CAESARS",
+    "dominio": "caesars.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "casadeapostas",
+    "nome": "CASADEAPOSTAS",
+    "dominio": "casadeapostas.bet.br",
+    "logo": "assets/bets/casadeapostas.png",
+    "temLogo": true
+  },
+  {
+    "id": "cassino",
+    "nome": "CASSINO",
+    "dominio": "cassino.bet.br",
+    "logo": "assets/bets/cassino.png",
+    "temLogo": true
+  },
+  {
+    "id": "cbesportes",
+    "nome": "CBESPORTES",
+    "dominio": "cbesportes.bet.br",
+    "logo": "assets/bets/cbesportes.png",
+    "temLogo": true
+  },
+  {
+    "id": "cgg",
+    "nome": "CGG",
+    "dominio": "cgg.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "donald",
+    "nome": "DONALD",
+    "dominio": "donald.bet.br",
+    "logo": "assets/bets/donald.png",
+    "temLogo": true
+  },
+  {
+    "id": "donosdabola",
+    "nome": "DONOSDABOLA",
+    "dominio": "donosdabola.bet.br",
+    "logo": "assets/bets/donosdabola.png",
+    "temLogo": true
+  },
+  {
+    "id": "drbingo",
+    "nome": "DRBINGO",
+    "dominio": "drbingo.bet.br",
+    "logo": "assets/bets/drbingo.png",
+    "temLogo": true
+  },
+  {
+    "id": "energia",
+    "nome": "ENERGIA",
+    "dominio": "energia.bet.br",
+    "logo": "assets/bets/energia.png",
+    "temLogo": true
+  },
+  {
+    "id": "esporte365",
+    "nome": "ESPORTE365",
+    "dominio": "esporte365.bet.br",
+    "logo": "assets/bets/esporte365.png",
+    "temLogo": true
+  },
+  {
+    "id": "esportesdasorte",
+    "nome": "ESPORTESDASORTE",
+    "dominio": "esportesdasorte.bet.br",
+    "logo": "assets/bets/esportesdasorte.png",
+    "temLogo": true
+  },
+  {
+    "id": "esportiva",
+    "nome": "ESPORTIVA",
+    "dominio": "esportiva.bet.br",
+    "logo": "assets/bets/esportiva.png",
+    "temLogo": true
+  },
+  {
+    "id": "esportivavip",
+    "nome": "ESPORTIVAVIP",
+    "dominio": "esportivavip.bet.br",
+    "logo": "assets/bets/esportivavip.png",
+    "temLogo": true
+  },
+  {
+    "id": "estrelabet",
+    "nome": "ESTRELABET",
+    "dominio": "estrelabet.bet.br",
+    "logo": "assets/bets/estrelabet.png",
+    "temLogo": true
+  },
+  {
+    "id": "f12",
+    "nome": "F12",
+    "dominio": "f12.bet.br",
+    "logo": "assets/bets/f12.png",
+    "temLogo": true
+  },
+  {
+    "id": "fanbit",
+    "nome": "FANBIT",
+    "dominio": "fanbit.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "faz1",
+    "nome": "FAZ1",
+    "dominio": "faz1.bet.br",
+    "logo": "assets/bets/faz1.png",
+    "temLogo": true
+  },
+  {
+    "id": "fazo",
+    "nome": "FAZO",
+    "dominio": "fazo.bet.br",
+    "logo": "assets/bets/fazo.png",
+    "temLogo": true
+  },
+  {
+    "id": "fla",
+    "nome": "FLA",
+    "dominio": "fla.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "fogo777",
+    "nome": "FOGO777",
+    "dominio": "fogo777.bet.br",
+    "logo": "assets/bets/fogo777.png",
+    "temLogo": true
+  },
+  {
+    "id": "free",
+    "nome": "FREE",
+    "dominio": "free.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "fulltbet",
+    "nome": "FULLTBET",
+    "dominio": "fulltbet.bet.br",
+    "logo": "assets/bets/fulltbet.png",
+    "temLogo": true
+  },
+  {
+    "id": "fybet",
+    "nome": "FYBET",
+    "dominio": "fybet.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "galera",
+    "nome": "GALERA",
+    "dominio": "galera.bet.br",
+    "logo": "assets/bets/galera.png",
+    "temLogo": true
+  },
+  {
+    "id": "ganhei",
+    "nome": "GANHEI",
+    "dominio": "ganhei.bet.br",
+    "logo": "assets/bets/ganhei.png",
+    "temLogo": true
+  },
+  {
+    "id": "geralbet",
+    "nome": "GERALBET",
+    "dominio": "geralbet.bet.br",
+    "logo": "assets/bets/geralbet.png",
+    "temLogo": true
+  },
+  {
+    "id": "ginga",
+    "nome": "GINGA",
+    "dominio": "ginga.bet.br",
+    "logo": "assets/bets/ginga.png",
+    "temLogo": true
+  },
+  {
+    "id": "goldebet",
+    "nome": "GOLDEBET",
+    "dominio": "goldebet.bet.br",
+    "logo": "assets/bets/goldebet.png",
+    "temLogo": true
+  },
+  {
+    "id": "h2",
+    "nome": "H2",
+    "dominio": "h2.bet.br",
+    "logo": "assets/bets/h2.png",
+    "temLogo": true
+  },
+  {
+    "id": "hanz",
+    "nome": "HANZ",
+    "dominio": "hanz.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "hiper",
+    "nome": "HIPER",
+    "dominio": "hiper.bet.br",
+    "logo": "assets/bets/hiper.png",
+    "temLogo": true
+  },
+  {
+    "id": "ice",
+    "nome": "ICE",
+    "dominio": "ice.bet.br",
+    "logo": "assets/bets/ice.png",
+    "temLogo": true
+  },
+  {
+    "id": "ijogo",
+    "nome": "IJOGO",
+    "dominio": "ijogo.bet.br",
+    "logo": "assets/bets/ijogo.png",
+    "temLogo": true
+  },
+  {
+    "id": "jogajunto",
+    "nome": "JOGAJUNTO",
+    "dominio": "jogajunto.bet.br",
+    "logo": "assets/bets/jogajunto.png",
+    "temLogo": true
+  },
+  {
+    "id": "jogalimpo",
+    "nome": "JOGALIMPO",
+    "dominio": "jogalimpo.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "jogao",
+    "nome": "JOGAO",
+    "dominio": "jogao.bet.br",
+    "logo": "assets/bets/jogao.png",
+    "temLogo": true
+  },
+  {
+    "id": "jogodeouro",
+    "nome": "JOGODEOURO",
+    "dominio": "jogodeouro.bet.br",
+    "logo": "assets/bets/jogodeouro.png",
+    "temLogo": true
+  },
+  {
+    "id": "jogoonline",
+    "nome": "JOGOONLINE",
+    "dominio": "jogoonline.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "jogos",
+    "nome": "JOGOS",
+    "dominio": "jogos.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "jonbet",
+    "nome": "JONBET",
+    "dominio": "jonbet.bet.br",
+    "logo": "assets/bets/jonbet.png",
+    "temLogo": true
+  },
+  {
+    "id": "kbet",
+    "nome": "KBET",
+    "dominio": "kbet.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "kingpanda",
+    "nome": "KINGPANDA",
+    "dominio": "kingpanda.bet.br",
+    "logo": "assets/bets/kingpanda.png",
+    "temLogo": true
+  },
+  {
+    "id": "kto",
+    "nome": "KTO",
+    "dominio": "kto.bet.br",
+    "logo": "assets/bets/kto.png",
+    "temLogo": true
+  },
+  {
+    "id": "lancedesorte",
+    "nome": "LANCEDESORTE",
+    "dominio": "lancedesorte.bet.br",
+    "logo": "assets/bets/lancedesorte.png",
+    "temLogo": true
+  },
+  {
+    "id": "lider",
+    "nome": "LIDER",
+    "dominio": "lider.bet.br",
+    "logo": "assets/bets/lider.png",
+    "temLogo": true
+  },
+  {
+    "id": "lotogreen",
+    "nome": "LOTOGREEN",
+    "dominio": "lotogreen.bet.br",
+    "logo": "assets/bets/lotogreen.png",
+    "temLogo": true
+  },
+  {
+    "id": "lottoland",
+    "nome": "LOTTOLAND",
+    "dominio": "lottoland.bet.br",
+    "logo": "assets/bets/lottoland.png",
+    "temLogo": true
+  },
+  {
+    "id": "lottu",
+    "nome": "LOTTU",
+    "dominio": "lottu.bet.br",
+    "logo": "assets/bets/lottu.png",
+    "temLogo": true
+  },
+  {
+    "id": "luck",
+    "nome": "LUCK",
+    "dominio": "luck.bet.br",
+    "logo": "assets/bets/luck.png",
+    "temLogo": true
+  },
+  {
+    "id": "luva",
+    "nome": "LUVA",
+    "dominio": "luva.bet.br",
+    "logo": "assets/bets/luva.png",
+    "temLogo": true
+  },
+  {
+    "id": "magicjackpot",
+    "nome": "MAGICJACKPOT",
+    "dominio": "magicjackpot.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "matchbook",
+    "nome": "MATCHBOOK",
+    "dominio": "matchbook.bet.br",
+    "logo": "assets/bets/matchbook.png",
+    "temLogo": true
+  },
+  {
+    "id": "maxima",
+    "nome": "MAXIMA",
+    "dominio": "maxima.bet.br",
+    "logo": "assets/bets/maxima.png",
+    "temLogo": true
+  },
+  {
+    "id": "mcgames",
+    "nome": "MCGAMES",
+    "dominio": "mcgames.bet.br",
+    "logo": "assets/bets/mcgames.png",
+    "temLogo": true
+  },
+  {
+    "id": "mcgamesbet",
+    "nome": "MCGAMESBET",
+    "dominio": "mcgamesbet.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "megabet",
+    "nome": "MEGABET",
+    "dominio": "megabet.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "megaposta",
+    "nome": "MEGAPOSTA",
+    "dominio": "megaposta.bet.br",
+    "logo": "assets/bets/megaposta.png",
+    "temLogo": true
+  },
+  {
+    "id": "meridianbet",
+    "nome": "MERIDIANBET",
+    "dominio": "meridianbet.bet.br",
+    "logo": "assets/bets/meridianbet.png",
+    "temLogo": true
+  },
+  {
+    "id": "mgm",
+    "nome": "MGM",
+    "dominio": "mgm.bet.br",
+    "logo": "assets/bets/mgm.png",
+    "temLogo": true
+  },
+  {
+    "id": "milhao",
+    "nome": "MILHAO",
+    "dominio": "milhao.bet.br",
+    "logo": "assets/bets/milhao.png",
+    "temLogo": true
+  },
+  {
+    "id": "mmabet",
+    "nome": "MMABET",
+    "dominio": "mmabet.bet.br",
+    "logo": "assets/bets/mmabet.png",
+    "temLogo": true
+  },
+  {
+    "id": "montecarlos",
+    "nome": "MONTECARLOS",
+    "dominio": "montecarlos.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "mrjack",
+    "nome": "MRJACK",
+    "dominio": "mrjack.bet.br",
+    "logo": "assets/bets/mrjack.png",
+    "temLogo": true
+  },
+  {
+    "id": "multi",
+    "nome": "MULTI",
+    "dominio": "multi.bet.br",
+    "logo": "assets/bets/multi.png",
+    "temLogo": true
+  },
+  {
+    "id": "nossa",
+    "nome": "NOSSA",
+    "dominio": "nossa.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "novibet",
+    "nome": "NOVIBET",
+    "dominio": "novibet.bet.br",
+    "logo": "assets/bets/novibet.png",
+    "temLogo": true
+  },
+  {
+    "id": "obabet",
+    "nome": "OBABET",
+    "dominio": "obabet.bet.br",
+    "logo": "assets/bets/obabet.png",
+    "temLogo": true
+  },
+  {
+    "id": "oleybet",
+    "nome": "OLEYBET",
+    "dominio": "oleybet.bet.br",
+    "logo": "assets/bets/oleybet.png",
+    "temLogo": true
+  },
+  {
+    "id": "ona",
+    "nome": "ONA",
+    "dominio": "ona.bet.br",
+    "logo": "assets/bets/ona.png",
+    "temLogo": true
+  },
+  {
+    "id": "p9",
+    "nome": "P9",
+    "dominio": "p9.bet.br",
+    "logo": "assets/bets/p9.png",
+    "temLogo": true
+  },
+  {
+    "id": "pagol",
+    "nome": "PAGOL",
+    "dominio": "pagol.bet.br",
+    "logo": "assets/bets/pagol.png",
+    "temLogo": true
+  },
+  {
+    "id": "papigames",
+    "nome": "PAPIGAMES",
+    "dominio": "papigames.bet.br",
+    "logo": "assets/bets/papigames.png",
+    "temLogo": true
+  },
+  {
+    "id": "pin",
+    "nome": "PIN",
+    "dominio": "pin.bet.br",
+    "logo": "assets/bets/pin.png",
+    "temLogo": true
+  },
+  {
+    "id": "pinnacle",
+    "nome": "PINNACLE",
+    "dominio": "pinnacle.bet.br",
+    "logo": "assets/bets/pinnacle.png",
+    "temLogo": true
+  },
+  {
+    "id": "pitaco",
+    "nome": "PITACO",
+    "dominio": "pitaco.bet.br",
+    "logo": "assets/bets/pitaco.png",
+    "temLogo": true
+  },
+  {
+    "id": "pix",
+    "nome": "PIX",
+    "dominio": "pix.bet.br",
+    "logo": "assets/bets/pix.png",
+    "temLogo": true
+  },
+  {
+    "id": "play",
+    "nome": "PLAY",
+    "dominio": "play.bet.br",
+    "logo": "assets/bets/play.png",
+    "temLogo": true
+  },
+  {
+    "id": "playuzu",
+    "nome": "PLAYUZU",
+    "dominio": "playuzu.bet.br",
+    "logo": "assets/bets/playuzu.png",
+    "temLogo": true
+  },
+  {
+    "id": "pq777",
+    "nome": "PQ777",
+    "dominio": "pq777.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "qg",
+    "nome": "QG",
+    "dominio": "qg.bet.br",
+    "logo": "assets/bets/qg.png",
+    "temLogo": true
+  },
+  {
+    "id": "r7",
+    "nome": "R7",
+    "dominio": "r7.bet.br",
+    "logo": "assets/bets/r7.png",
+    "temLogo": true
+  },
+  {
+    "id": "rdp",
+    "nome": "RDP",
+    "dominio": "rdp.bet.br",
+    "logo": "assets/bets/rdp.png",
+    "temLogo": true
+  },
+  {
+    "id": "reals",
+    "nome": "REALS",
+    "dominio": "reals.bet.br",
+    "logo": "assets/bets/reals.png",
+    "temLogo": true
+  },
+  {
+    "id": "receba",
+    "nome": "RECEBA",
+    "dominio": "receba.bet.br",
+    "logo": "assets/bets/receba.png",
+    "temLogo": true
+  },
+  {
+    "id": "reidopitaco",
+    "nome": "REIDOPITACO",
+    "dominio": "reidopitaco.bet.br",
+    "logo": "assets/bets/reidopitaco.png",
+    "temLogo": true
+  },
+  {
+    "id": "rico",
+    "nome": "RICO",
+    "dominio": "rico.bet.br",
+    "logo": "assets/bets/rico.png",
+    "temLogo": true
+  },
+  {
+    "id": "rivalo",
+    "nome": "RIVALO",
+    "dominio": "rivalo.bet.br",
+    "logo": "assets/bets/rivalo.png",
+    "temLogo": true
+  },
+  {
+    "id": "seguro",
+    "nome": "SEGURO",
+    "dominio": "seguro.bet.br",
+    "logo": "assets/bets/seguro.png",
+    "temLogo": true
+  },
+  {
+    "id": "seu",
+    "nome": "SEU",
+    "dominio": "seu.bet.br",
+    "logo": "assets/bets/seu.png",
+    "temLogo": true
+  },
+  {
+    "id": "sortenabet",
+    "nome": "SORTENABET",
+    "dominio": "sortenabet.bet.br",
+    "logo": "assets/bets/sortenabet.png",
+    "temLogo": true
+  },
+  {
+    "id": "sorteonline",
+    "nome": "SORTEONLINE",
+    "dominio": "sorteonline.bet.br",
+    "logo": "assets/bets/sorteonline.png",
+    "temLogo": true
+  },
+  {
+    "id": "spin",
+    "nome": "SPIN",
+    "dominio": "spin.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "sportingbet",
+    "nome": "SPORTINGBET",
+    "dominio": "sportingbet.bet.br",
+    "logo": "assets/bets/sportingbet.png",
+    "temLogo": true
+  },
+  {
+    "id": "sporty",
+    "nome": "SPORTY",
+    "dominio": "sporty.bet.br",
+    "logo": "assets/bets/sporty.png",
+    "temLogo": true
+  },
+  {
+    "id": "stake",
+    "nome": "STAKE",
+    "dominio": "stake.bet.br",
+    "logo": "assets/bets/stake.png",
+    "temLogo": true
+  },
+  {
+    "id": "start",
+    "nome": "START",
+    "dominio": "start.bet.br",
+    "logo": "assets/bets/start.png",
+    "temLogo": true
+  },
+  {
+    "id": "super",
+    "nome": "SUPER",
+    "dominio": "super.bet.br",
+    "logo": "assets/bets/super.png",
+    "temLogo": true
+  },
+  {
+    "id": "superbet",
+    "nome": "SUPERBET",
+    "dominio": "superbet.bet.br",
+    "logo": "assets/bets/superbet.png",
+    "temLogo": true
+  },
+  {
+    "id": "suprema",
+    "nome": "SUPREMA",
+    "dominio": "suprema.bet.br",
+    "logo": "assets/bets/suprema.png",
+    "temLogo": true
+  },
+  {
+    "id": "telesena",
+    "nome": "TELESENA",
+    "dominio": "telesena.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "tiger",
+    "nome": "TIGER",
+    "dominio": "tiger.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "tivo",
+    "nome": "TIVO",
+    "dominio": "tivo.bet.br",
+    "logo": "assets/bets/tivo.png",
+    "temLogo": true
+  },
+  {
+    "id": "tradicional",
+    "nome": "TRADICIONAL",
+    "dominio": "tradicional.bet.br",
+    "logo": "assets/bets/tradicional.png",
+    "temLogo": true
+  },
+  {
+    "id": "tropino",
+    "nome": "TROPINO",
+    "dominio": "tropino.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "ultra",
+    "nome": "ULTRA",
+    "dominio": "ultra.bet.br",
+    "logo": "assets/bets/ultra.png",
+    "temLogo": true
+  },
+  {
+    "id": "up",
+    "nome": "UP",
+    "dominio": "up.bet.br",
+    "logo": "assets/bets/up.png",
+    "temLogo": true
+  },
+  {
+    "id": "ux",
+    "nome": "UX",
+    "dominio": "ux.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "vaidebet",
+    "nome": "VAIDEBET",
+    "dominio": "vaidebet.bet.br",
+    "logo": "assets/bets/vaidebet.png",
+    "temLogo": true
+  },
+  {
+    "id": "vbet",
+    "nome": "VBET",
+    "dominio": "vbet.bet.br",
+    "logo": "assets/bets/vbet.png",
+    "temLogo": true
+  },
+  {
+    "id": "vera",
+    "nome": "VERA",
+    "dominio": "vera.bet.br",
+    "logo": "assets/bets/vera.png",
+    "temLogo": true
+  },
+  {
+    "id": "versus",
+    "nome": "VERSUS",
+    "dominio": "versus.bet.br",
+    "logo": "assets/bets/versus.png",
+    "temLogo": true
+  },
+  {
+    "id": "vert",
+    "nome": "VERT",
+    "dominio": "vert.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "vivaro",
+    "nome": "VIVARO",
+    "dominio": "vivaro.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "vivasorte",
+    "nome": "VIVASORTE",
+    "dominio": "vivasorte.bet.br",
+    "logo": "assets/bets/vivasorte.png",
+    "temLogo": true
+  },
+  {
+    "id": "vupi",
+    "nome": "VUPI",
+    "dominio": "vupi.bet.br",
+    "logo": "assets/bets/vupi.png",
+    "temLogo": true
+  },
+  {
+    "id": "wjcasino",
+    "nome": "WJCASINO",
+    "dominio": "wjcasino.bet.br",
+    "logo": "assets/bets/wjcasino.png",
+    "temLogo": true
+  },
+  {
+    "id": "xbetcaixa",
+    "nome": "XBETCAIXA",
+    "dominio": "xbetcaixa.bet.br",
+    "logo": null,
+    "temLogo": false
+  },
+  {
+    "id": "xx",
+    "nome": "XX",
+    "dominio": "xx.bet.br",
+    "logo": "assets/bets/xx.png",
+    "temLogo": true
+  },
+  {
+    "id": "zeroum",
+    "nome": "ZEROUM",
+    "dominio": "zeroum.bet.br",
+    "logo": "assets/bets/zeroum.png",
+    "temLogo": true
+  }
+]

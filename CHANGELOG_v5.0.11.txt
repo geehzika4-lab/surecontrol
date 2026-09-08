@@ -1,0 +1,5 @@
+SureControl v5.0.11
+- Card vertical: logos das casas maiores.
+- Nome da casa, odd e stake maiores para melhor leitura no mobile.
+- Espaçamento recalculado entre logo e texto para evitar sobreposição.
+- Nenhuma lógica financeira alterada.

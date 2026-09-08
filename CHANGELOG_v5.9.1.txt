@@ -1,0 +1,6 @@
+SureControl v5.9.1
+- ROI e Investimento centralizados verticalmente no painel de métricas.
+- Preview do card passa a exibir 100% da imagem sem recorte visual.
+- Modal de preview rola verticalmente quando necessário em telas pequenas.
+- Salvar PNG/Compartilhar continuam usando o blob do canvas original em resolução integral.
+- Nenhuma mecânica de cálculo ou registro alterada.

@@ -1,0 +1,3 @@
+SureControl v5.0.7
+- Card PNG da surebet: selos agora exibem o nome da missão ao lado do ícone.
+- Alteração apenas visual no card; lógica da calculadora e do histórico preservada.

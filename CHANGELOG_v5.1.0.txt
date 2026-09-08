@@ -1,0 +1,10 @@
+SureControl v5.1.0 — Design/App Foundation
+
+- Redesign visual premium sem alterações nas mecânicas, cálculos, persistência ou sincronização.
+- Nova paleta claro/escuro com foco em verde profundo, superfícies neutras e contraste para uso mobile.
+- Refinamento de sidebar, topbar, cards, botões, formulários, histórico, casas e modais.
+- Navegação mobile preparada visualmente para futura empacotação Android.
+- Integração do pacote local de escudos enviado em assets/logos.
+- Novos selos: Aumento 30% e Duplo Green.
+- Card Studio v2: temas Graphite, Emerald, Midnight e Ivory; formatos Feed, Story e Quadrado; acabamentos Clean/Glass.
+- Gerador de card usa os mesmos dados salvos; nenhuma regra de negócio foi duplicada ou modificada.

@@ -1,0 +1,13 @@
+SureControl v4.3.1 — Refinamento visual de Freebets e Histórico
+
+Principais mudanças:
+- Ícone de Freebet repaginado no menu, atalhos e Central de Freebets.
+- Hero da Central de Freebets com selo visual em destaque.
+- Abas de Freebets redesenhadas com ícones consistentes.
+- Etiquetas especiais refeitas com melhor leitura e subtítulos.
+- Ações de Editar / Card / Planejar / Excluir com novos botões e ícones.
+- Cards do histórico e cards de freebet com visual mais refinado.
+- Card PNG da surebet atualizado: o rodapé agora mostra “Desenvolvido por Genário Costa”.
+- Ajustes finos para manter compatibilidade em modo claro e modo noturno.
+
+Arquivo gerado automaticamente para teste local.

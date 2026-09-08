@@ -1,0 +1,8 @@
+SureControl v4.3.5
+
+- seleção simultânea de várias etiquetas na mesma surebet
+- compatibilidade com registros antigos de etiqueta única
+- todas as etiquetas aparecem no Histórico, na tabela e no card PNG
+- etiquetas do card ficam em uma faixa própria entre o cabeçalho e as casas
+- logo da casa SUPER corrigido com o asset disponível da SUPERBET como fallback
+- cache de CSS/JS atualizado

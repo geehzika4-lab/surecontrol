@@ -1,0 +1,10 @@
+SureControl v5.8.0
+
+- Novo logo quadrado fornecido pelo usuário aplicado aos cards como marca secundária.
+- Card de surebet aproximado do conceito visual aprovado: identidade discreta, confronto, selos, lucro hero, ROI/investimento e rodapé.
+- ROI e investimento corrigidos para permanecerem dentro do painel em Feed, Story e Quadrado.
+- Lucro permanece como métrica de maior destaque.
+- Rodapé com data/hora de geração e assinatura Desenvolvido por Genário Costa.
+- Card de performance passa a usar o mesmo logo quadrado e assinatura visual.
+- Mantidos temas Graphite, Emerald, Midnight e Ivory e acabamentos Clean/Glass.
+- PATCH sem assets pesados; inclui somente o novo logo necessário aos cards.

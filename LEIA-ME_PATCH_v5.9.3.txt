@@ -1,0 +1,1 @@
+PATCH sem assets pesados. Substitua os arquivos do projeto e mantenha sua pasta assets, casas.json e team-index.json.

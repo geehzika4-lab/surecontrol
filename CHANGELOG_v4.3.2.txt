@@ -1,0 +1,11 @@
+SureControl v4.3.2 — Polimento visual fiel ao conceito
+
+- Novo ícone de Freebets no menu: ticket/cupom premium em duas versões (inativo e ativo neon).
+- Central de Freebets atualizada com o novo ícone e fundo mais próximo do conceito aprovado.
+- Ícones de Editar, Card, Planejar e Excluir corrigidos para traço fino/consistente, sem blocos pretos.
+- Paleta de textos e ações aproximada da proposta: azul institucional, ciano controlado, verde de resultado e âmbar apenas para missão.
+- Etiquetas especiais maiores, legíveis e com ícones alinhados.
+- Etiqueta no card PNG reposicionada abaixo da data/estratégia e ampliada.
+- Card noturno mantido com Sinal Inteligente; modo claro recebeu cabeçalho claro e branding azul, como no conceito.
+- Rodapé do card mantém “Desenvolvido por Genário Costa”.
+- Ajustes de responsividade na prévia do card.

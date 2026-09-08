@@ -1,0 +1,8 @@
+SureControl v5.2.0 — Visual Polish + Profit Cards
+- Integrados 164 logos locais de casas do pacote bets.zip em assets/bets.
+- Histórico e cards passam a usar os logos locais definidos em casas.json.
+- Novo gerador de card de lucro por Dia, Semana ou Mês, com seleção de data/mês.
+- Três visuais para card de performance: Signature, Obsidian e Mint.
+- Card de performance mostra lucro, investimento, ROI, positivos/negativos e casas utilizadas.
+- Refinamento visual app-like: tipografia, topbar incorporada, superfícies, tabelas, espaçamento e microtransições.
+- Nenhuma regra de cálculo, stake, Back/Lay, Freebet, persistência, login ou sincronização foi alterada.

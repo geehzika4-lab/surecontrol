@@ -1,0 +1,5 @@
+SureControl v5.9.2
+- Substituído somente o logo da interface no login, sidebar/cabeçalho e cabeçalho mobile.
+- Nova arte sem créditos aplicada como surecontrol-logo.png.
+- Logo dos cards mantido inalterado.
+- Nenhuma mecânica, cálculo, Card Studio ou layout funcional alterado.

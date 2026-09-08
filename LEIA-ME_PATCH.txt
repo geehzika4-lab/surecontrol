@@ -1,0 +1,13 @@
+SureControl v5.5.0 — PATCH SEM ASSETS
+
+1. Faça backup da pasta atual.
+2. Copie os arquivos deste ZIP para a raiz do SureControl, substituindo os arquivos existentes.
+3. NÃO apague a sua pasta assets, team-index.json ou casas.json.
+4. Este pacote foi propositalmente gerado sem assets para ficar leve.
+
+Principais mudanças:
+- Card de surebet no conceito visual aprovado.
+- Selos no próprio corpo do card, abaixo do confronto.
+- ROI em destaque.
+- Novo branding vetorial/transparente no cabeçalho, sem imagem externa.
+- Comissão, Freebet e Aumento com controles visuais premium responsivos.

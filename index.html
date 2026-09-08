@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>SureControl</title>
+  <link rel="stylesheet" href="styles.css?v=5930" />
+  <link rel="stylesheet" href="premium.css?v=5930" />
+</head>
+<body class="auth-locked v5-minimal sc-premium">
+  <div id="authGate" class="auth-gate" aria-live="polite">
+    <div class="auth-card">
+      <div class="auth-brand"><img class="sc-brand-image" src="surecontrol-logo.png" alt="SureControl"><span>Seus dados em qualquer dispositivo</span></div>
+      <div id="authLoading" class="auth-loading">Verificando sua sessão...</div>
+      <form id="authForm" class="auth-form" hidden>
+        <div>
+          <p class="eyebrow">CONTA</p>
+          <h1 id="authTitle">Entrar</h1>
+          <p id="authSubtitle" class="subtext">Entre para carregar seus registros salvos na nuvem.</p>
+        </div>
+        <label>E-mail<input id="authEmail" type="email" autocomplete="email" required placeholder="seu@email.com"></label>
+        <label>Senha<input id="authPassword" type="password" autocomplete="current-password" minlength="6" required placeholder="Sua senha"></label>
+        <div id="authError" class="auth-error" role="alert"></div>
+        <button id="authSubmit" class="primary-btn auth-submit" type="submit">Entrar</button>
+        <button id="authSwitch" class="text-btn auth-switch" type="button">Ainda não tenho conta</button>
+      </form>
+    </div>
+  </div>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><img class="sc-brand-image" src="surecontrol-logo.png" alt="SureControl"><span>Gestão pessoal</span></div>
+      <nav id="desktopNav" class="nav-list"></nav>
+      <div class="side-note" id="syncNote"><span class="dot" id="syncDot"></span><div><b id="syncTitle">Cache local ativo</b><small id="syncDetail">Aguardando login</small></div></div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="topbar-copy"><div class="topbar-mobile-brand"><img class="sc-brand-image" src="surecontrol-logo.png" alt="SureControl"></div><div class="topbar-title-wrap"><div><p class="eyebrow">PAINEL FINANCEIRO</p><h1 id="pageTitle">Visão geral</h1></div></div></div>
+        <div class="top-actions">
+          <button class="icon-btn theme-toggle" id="themeToggle" title="Alternar modo noturno" aria-label="Alternar modo noturno"><span class="theme-icon">☾</span></button><button class="icon-btn" id="accountBtn" title="Minha conta" aria-label="Minha conta">👤</button><button class="icon-btn" id="backupBtn" title="Backup">⇩</button>
+          <button class="primary-btn" data-open="quickEntry">+ Nova entrada</button>
+        </div>
+      </header>
+
+      <section id="view-dashboard" class="view active">
+        <div class="summary-grid">
+          <article class="summary-card"><span>Hoje</span><strong id="sumToday">R$ 0,00</strong><small id="sumTodayCount">0 registros</small></article>
+          <article class="summary-card"><span>Semana</span><strong id="sumWeek">R$ 0,00</strong><small id="weekLabel">segunda a domingo</small></article>
+          <article class="summary-card"><span>Mês</span><strong id="sumMonth">R$ 0,00</strong><small id="monthLabel">mês atual</small></article>
+          <article class="summary-card accent"><span>Lucro total</span><strong id="sumTotal">R$ 0,00</strong><small>desde o primeiro registro</small></article>
+        </div>
+
+        <div class="grid-2 dashboard-primary-grid">
+          <article class="panel chart-panel dashboard-chart-wide">
+            <div class="panel-head"><div><p class="eyebrow">EVOLUÇÃO</p><h2>Lucro acumulado</h2></div><select id="chartRange" class="compact-select"><option value="7">7 dias</option><option value="30" selected>30 dias</option><option value="90">90 dias</option></select></div>
+            <canvas id="profitChart" height="220"></canvas>
+          </article>
+        </div>
+
+        <div class="grid-2 lower-grid">
+          <article class="panel">
+            <div class="panel-head"><div><p class="eyebrow">ATALHOS</p><h2>Registrar resultado</h2></div></div>
+            <div class="quick-grid">
+              <button class="quick-card" data-nav="surebet"><span class="qicon" data-icon="percent"></span><div><b>Surebet</b><small>Calcular e salvar arbitragem</small></div></button>
+              <button class="quick-card" data-nav="spins"><span class="qicon" data-icon="refresh"></span><div><b>Giros grátis</b><small>Registrar conversão em saldo</small></div></button>
+              <button class="quick-card" data-nav="freebets"><span class="qicon" data-icon="freebet"></span><div><b>Freebets</b><small>Documentar e planejar extrações</small></div></button>
+              <button class="quick-card" data-open="manualEntry"><span class="qicon" data-icon="manual"></span><div><b>Ajuste manual</b><small>Outros ganhos ou perdas</small></div></button>
+              <button class="quick-card" data-nav="reports"><span class="qicon" data-icon="report"></span><div><b>Relatório</b><small>Imagem, PDF e backup</small></div></button>
+            </div><button class="database-link" data-nav="houses" type="button">Casas e banca <span>Base de dados</span></button>
+          </article>
+        </div>
+      </section>
+
+      <section id="view-surebet" class="view">
+        <div class="calculator-layout">
+          <article class="panel calculator-card">
+            <div class="panel-head calculator-head"><div><p class="eyebrow">CALCULADORA</p><h2>Calculadora de surebet</h2><p class="subtext">Informe o evento, as odds e o valor da primeira aposta. A Casa 1 é a referência e as demais stakes são recalculadas automaticamente.</p></div></div>
+            <div class="sure-config">
+              <div class="sure-config-title">Configurações</div>
+              <div class="house-count-control"><span>Número de casas</span><div class="house-count-options" id="houseCountOptions"><button type="button" data-house-count="2" class="house-count-btn active">2</button><button type="button" data-house-count="3" class="house-count-btn">3</button><button type="button" data-house-count="4" class="house-count-btn">4</button><button type="button" data-house-count="5" class="house-count-btn">5</button><button type="button" data-house-count="6" class="house-count-btn">6</button></div></div>
+            </div>
+            <div class="form-grid two sure-main-fields">
+              <label>Data<input id="sureDate" type="date"></label>
+              <label>Evento<input id="sureEvent" type="text" placeholder="Ex.: Santos x Palmeiras"><span id="teamEventPreview" class="team-event-preview" aria-live="polite"></span></label>
+            </div>
+            <div id="outcomeRows" class="outcomes simple-sure-grid"></div>
+            <div class="special-tag-box seal-selector-box">
+              <div class="special-tag-head"><div><span>Selos da surebet</span><small>Opcional • selecione um ou mais selos para o histórico e o card</small></div><button id="clearSpecialTag" type="button" class="special-clear">Limpar</button></div>
+              <div id="specialTagPicker" class="special-tag-picker seal-picker">
+                <button type="button" class="special-chip seal-picker-item freebet" data-special-tag="freebet-extraction" aria-label="Extração de Freebet"><span class="seal-coin"><span class="chip-ico" data-icon="freebet"></span></span><span class="seal-caption"><b>Extração de Freebet</b><small>Freebet disponível</small></span></button>
+                <button type="button" class="special-chip seal-picker-item mission" data-special-tag="freebet-mission" aria-label="Missão pegar Freebet"><span class="seal-coin"><span class="chip-ico" data-icon="target"></span></span><span class="seal-caption"><b>Missão pegar Freebet</b><small>Missão promocional</small></span></button>
+                <button type="button" class="special-chip seal-picker-item spins" data-special-tag="spins-mission" aria-label="Missão giros"><span class="seal-coin"><span class="chip-ico" data-icon="spins"></span></span><span class="seal-caption"><b>Missão giros</b><small>Benefício em giros</small></span></button>
+                <button type="button" class="special-chip seal-picker-item boost" data-special-tag="boosted" aria-label="Aumentada 25%"><span class="seal-coin"><span class="chip-ico" data-icon="boost"></span></span><span class="seal-caption"><b>Aumentada 25%</b><small>Odd aumentada</small></span></button>
+                <button type="button" class="special-chip seal-picker-item boost30" data-special-tag="boosted-30" aria-label="Aumento 30%"><span class="seal-coin"><span class="chip-ico" data-icon="boost"></span></span><span class="seal-caption"><b>Aumento 30%</b><small>Promoção de 30%</small></span></button>
+                <button type="button" class="special-chip seal-picker-item doublegreen" data-special-tag="double-green" aria-label="Duplo Green"><span class="seal-coin"><span class="chip-ico" data-icon="check"></span></span><span class="seal-caption"><b>Duplo Green</b><small>Resultado duplo</small></span></button>
+              </div>
+            </div>
+            <div id="sureResult" class="calc-result neutral">
+              <div><span>Margem</span><strong id="arbMargin">—</strong></div><div><span>Retorno garantido</span><strong id="arbReturn">—</strong></div><div><span>Lucro estimado</span><strong id="arbProfit">—</strong></div><div><span>ROI</span><strong id="arbRoi">—</strong></div>
+            </div>
+            <div id="plannedFreebetBanner" class="planned-freebet-banner" hidden><div><strong>Extração vinculada</strong><small id="plannedFreebetText">Nenhuma freebet vinculada.</small></div><button id="clearFreebetPlan" class="ghost-btn small-btn" type="button">Remover vínculo</button></div>
+            <div class="allocation" id="allocationBox"></div>
+            <div class="action-row"><button id="calculateSure" class="secondary-btn">Equalizar stakes</button><button id="saveSure" class="special-action-btn">Salvar surebet</button></div>
+          </article>
+          <article class="panel tips-card"><p class="eyebrow">RESUMO</p><h2>Resultado da sure</h2><p>Cada card representa um resultado possível do evento. Toque em <b>B</b> para alternar entre <b>Back</b> e <b>Lay</b>. Comissão, Freebet e Aumento só aparecem quando você ativar.</p><div class="metric-line"><span>Estratégia</span><strong id="impliedSum">—</strong></div><div class="metric-line"><span>Status</span><strong id="arbStatus">Aguardando odds</strong></div><div class="notice">Todas as stakes são editáveis. A montagem inicial pode ser equalizada automaticamente. Se você alterar manualmente qualquer stake da operação, o valor digitado é preservado e o sistema passa a recalcular somente o lucro ou prejuízo de cada resultado. Use “Equalizar stakes” apenas quando quiser voltar à distribuição automática.</div></article>
+        </div>
+        <article class="panel"><div class="panel-head"><div><p class="eyebrow">HISTÓRICO</p><h2>Surebets registradas</h2></div></div><div id="sureTableWrap" class="table-wrap"></div></article>
+      </section>
+
+      <section id="view-spins" class="view">
+        <div class="grid-2">
+          <article class="panel">
+            <div class="panel-head"><div><p class="eyebrow">FREE SPINS</p><h2>Registrar giros grátis</h2></div></div>
+            <div class="form-grid two">
+              <label>Data<input id="spinDate" type="date"></label>
+              <label>Casa<select id="spinHouse"></select></label>
+              <label>Quantidade de giros<input id="spinCount" type="number" min="0" placeholder="20"></label>
+              <label>Valor nominal por giro<input id="spinValue" type="number" min="0" step="0.01" placeholder="1,00"></label>
+              <label>Saldo antes<input id="spinBefore" type="number" step="0.01" placeholder="100,00"></label>
+              <label>Saldo depois<input id="spinAfter" type="number" step="0.01" placeholder="145,30"></label>
+            </div>
+            <div class="calc-result"><div><span>Valor nominal</span><strong id="spinNominal">R$ 0,00</strong></div><div><span>Lucro convertido</span><strong id="spinProfit">R$ 0,00</strong></div><div><span>Conversão</span><strong id="spinConversion">0%</strong></div></div>
+            <div class="action-row"><button id="saveSpin" class="primary-btn">Salvar resultado</button></div>
+          </article>
+          <article class="panel"><div class="panel-head"><div><p class="eyebrow">RESUMO</p><h2>Giros grátis</h2></div></div><div class="big-stat"><span>Lucro total</span><strong id="spinTotal">R$ 0,00</strong></div><div class="big-stat"><span>Giros registrados</span><strong id="spinCountTotal">0</strong></div><div class="big-stat"><span>Conversão média</span><strong id="spinAvgConversion">0%</strong></div></article>
+        </div>
+        <article class="panel"><div class="panel-head"><div><p class="eyebrow">HISTÓRICO</p><h2>Conversões registradas</h2></div></div><div id="spinTableWrap" class="table-wrap"></div></article>
+      </section>
+
+
+      <section id="view-freebets" class="view">
+        <div class="freebet-hero signal-surface">
+          <div class="freebet-hero-copy"><div class="freebet-hero-mark"><span class="freebet-hero-lineicon" data-icon="freebet" aria-hidden="true"></span></div><div><p class="eyebrow">FREEBETS</p><h2>Central de Freebets</h2><p class="subtext">Cadastre o valor recebido, acompanhe o que ainda precisa ser extraído e consulte o histórico das extrações concluídas.</p></div></div>
+          <div class="freebet-kpis"><div><span>A extrair</span><strong id="fbPendingCount">0</strong></div><div><span>Extraídas</span><strong id="fbExtractedCount">0</strong></div><div><span>Disponível</span><strong id="fbHeroAvailable">R$ 0,00</strong></div></div>
+        </div>
+        <div class="freebet-tabs" role="tablist">
+          <button type="button" class="freebet-tab active" data-freebet-tab="add"><span class="tab-ico" data-icon="plus"></span><span class="tab-label">Adicionar freebet</span></button>
+          <button type="button" class="freebet-tab" data-freebet-tab="pending"><span class="tab-ico" data-icon="freebet"></span><span class="tab-label">Freebets a extrair</span><span id="fbPendingBadge">0</span></button>
+          <button type="button" class="freebet-tab" data-freebet-tab="extracted"><span class="tab-ico" data-icon="check"></span><span class="tab-label">Freebets extraídas</span><span id="fbExtractedBadge">0</span></button>
+        </div>
+
+        <div id="freebetTabAdd" class="freebet-tab-panel active">
+          <div class="grid-2">
+            <article class="panel freebet-form-panel">
+              <div class="panel-head"><div><p class="eyebrow">ADICIONAR</p><h2>Salvar nova freebet</h2><p class="subtext">O valor cadastrado não entra como lucro. Ele só será contabilizado quando a extração for concluída.</p></div></div>
+              <div class="form-grid two">
+                <label>Data recebida<input id="freebetDate" type="date"></label>
+                <label>Casa<select id="freebetHouse"></select></label>
+                <label>Nome da promoção<input id="freebetName" type="text" placeholder="Ex.: Oferta de boas-vindas"></label>
+                <label>Valor da freebet (R$)<input id="freebetValue" type="number" min="0" step="0.01" placeholder="25,00"></label>
+                <label>Odd mínima<input id="freebetMinOdd" type="number" min="1" step="0.01" placeholder="1,60"></label>
+                <label>Válida até<input id="freebetExpires" type="date"></label>
+                <label>Custo da missão (R$)<input id="freebetMissionCost" type="number" min="0" step="0.01" placeholder="0,00"></label>
+                <label>Status<select id="freebetStatus"><option value="available">A extrair</option><option value="planned">Em extração</option><option value="extracted">Extraída</option><option value="expired">Expirada</option></select></label>
+                <label class="span-2">Observações<textarea id="freebetNotes" rows="3" placeholder="Regras, limite, mercado permitido, etc."></textarea></label>
+              </div>
+              <div id="freebetCalc" class="calc-result neutral"><div><span>Valor</span><strong id="fbPreviewNominal">R$ 0,00</strong></div><div><span>Custo</span><strong id="fbPreviewCost">R$ 0,00</strong></div><div><span>Extração estimada*</span><strong id="fbPreviewExtracted">R$ 0,00</strong></div><div><span>Líquido estimado*</span><strong id="fbPreviewNet">R$ 0,00</strong></div></div>
+              <small class="calc-footnote">*Estimativa visual de 80% até você abrir a calculadora e informar as odds reais.</small>
+              <div class="action-row"><button id="planFreebet" class="secondary-btn" type="button">Salvar e extrair agora</button><button id="saveFreebet" class="special-action-btn" type="button"><span class="inline-icon" data-icon="freebet"></span><span>Salvar freebet</span></button></div>
+            </article>
+            <article class="panel">
+              <div class="panel-head"><div><p class="eyebrow">RESUMO</p><h2>Controle das promoções</h2></div></div>
+              <div class="big-stat"><span>Freebets disponíveis</span><strong id="fbAvailableTotal">R$ 0,00</strong></div>
+              <div class="big-stat"><span>Extraído no mês</span><strong id="fbExtractedMonth">R$ 0,00</strong></div>
+              <div class="big-stat"><span>Conversão média</span><strong id="fbAvgConversion">0%</strong></div>
+              <div class="big-stat"><span>Lucro líquido promoções</span><strong id="fbNetProfitTotal">R$ 0,00</strong></div>
+              <div id="plannedFreebetHint" class="notice">Nenhuma extração em planejamento no momento.</div>
+            </article>
+          </div>
+        </div>
+
+        <div id="freebetTabPending" class="freebet-tab-panel">
+          <article class="panel">
+            <div class="panel-head"><div><p class="eyebrow">PENDENTES</p><h2>Freebets a extrair</h2><p class="subtext">Toque em <b>Extrair agora</b> para abrir a calculadora já com a freebet, casa e valor preenchidos.</p></div></div>
+            <div id="freebetPendingList" class="freebet-list empty-state">Nenhuma freebet aguardando extração.</div>
+          </article>
+        </div>
+
+        <div id="freebetTabExtracted" class="freebet-tab-panel">
+          <article class="panel">
+            <div class="panel-head"><div><p class="eyebrow">CONCLUÍDAS</p><h2>Freebets extraídas</h2><p class="subtext">Histórico das promoções já convertidas, com valor bruto, conversão e resultado líquido.</p></div></div>
+            <div id="freebetExtractedList" class="freebet-list empty-state">Nenhuma freebet extraída ainda.</div>
+          </article>
+        </div>
+      </section>
+
+      <section id="view-houses" class="view">
+        <div class="legacy-bank-cache" hidden><div id="balanceList"></div><strong id="bankTotal"></strong></div>
+        <article class="panel">
+          <div class="panel-head houses-head"><div><p class="eyebrow">CASAS</p><h2>Minhas casas de apostas</h2><p class="subtext">Ative as casas que você usa. Você também pode definir saldo, comissão padrão e aumento padrão de odd.</p></div><div class="house-tools"><div class="search-box"><input id="houseSearch" type="search" placeholder="Buscar casa..."></div><div class="house-bulk-actions"><button id="selectAllHouses" class="secondary-btn small-btn" type="button">Selecionar todas</button><button id="clearAllHouses" class="ghost-btn small-btn" type="button">Desmarcar todas</button></div></div></div>
+          <div id="housesGrid" class="houses-grid"></div>
+        </article>
+      </section>
+
+      <section id="view-history" class="view">
+        <article class="panel history-shell">
+          <div class="panel-head"><div><p class="eyebrow">MOVIMENTAÇÕES</p><h2>Histórico completo</h2></div><div class="filters"><select id="historyType"><option value="all">Todos</option><option value="surebet">Surebet</option><option value="spins">Giros grátis</option><option value="freebet">Freebet</option><option value="manual">Manual</option></select><input id="historyMonth" type="month"></div></div>
+          <div id="historyTableWrap" class="table-wrap"></div>
+        </article>
+      </section>
+
+      <section id="view-reports" class="view">
+        <div class="summary-grid report-summaries"><article class="summary-card"><span>Hoje</span><strong id="repToday">R$ 0,00</strong></article><article class="summary-card"><span>Semana</span><strong id="repWeek">R$ 0,00</strong></article><article class="summary-card"><span>Mês</span><strong id="repMonth">R$ 0,00</strong></article><article class="summary-card accent"><span>Total</span><strong id="repTotal">R$ 0,00</strong></article></div>
+        <div class="grid-2">
+          <article class="panel"><p class="eyebrow">EXPORTAÇÃO</p><h2>Relatórios</h2><p class="subtext">Gere uma imagem PNG resumida, visualize antes de salvar e compartilhe direto pelo celular quando o navegador permitir. Cada surebet também pode gerar sua própria imagem individual. Você também pode abrir o relatório em PDF.</p><div class="report-utility-row"><button class="database-link compact" data-nav="houses" type="button">Casas e banca <span>Configuração opcional</span></button></div><div class="profit-card-builder">
+  <div class="profit-card-builder-head"><div><span class="builder-kicker">CARD DE RESULTADO</span><strong>Compartilhe seu lucro</strong></div><span class="builder-pill">Novo</span></div>
+  <div class="profit-card-controls">
+    <label>Período<select id="profitCardPeriod"><option value="day">Dia</option><option value="week">Semana</option><option value="month" selected>Mês</option></select></label>
+    <label id="profitCardDateLabel" hidden>Data<input id="profitCardDate" type="date"></label>
+    <label id="profitCardMonthLabel">Mês<input id="profitCardMonth" type="month"></label>
+    <label>Visual<select id="profitCardTheme"><option value="signature">Signature</option><option value="obsidian">Obsidian</option><option value="mint">Mint</option></select></label>
+  </div>
+  <button id="generateProfitCard" class="primary-btn profit-generate-btn" type="button"><span data-icon="image"></span>Gerar card de lucro</button>
+  <small class="builder-note">Usa somente os registros já existentes no histórico, sem alterar lançamentos ou cálculos.</small>
+</div>
+<div class="export-stack"><button id="exportImage" class="secondary-btn">Gerar resumo geral (.png)</button><button id="exportPdf" class="secondary-btn">Gerar PDF</button><button id="exportJson" class="ghost-btn">Backup completo (.json)</button><label class="ghost-btn file-label">Importar backup<input id="importJson" type="file" accept="application/json"></label></div></article>
+          <article class="panel"><p class="eyebrow">DESEMPENHO</p><h2>Hall de resultados</h2><div id="hallStats" class="hall-stats"></div></article>
+        </div>
+      </section>
+
+      <footer class="app-footer"><span>Desenvolvido por <strong>Genário Costa</strong></span><div class="social-links"><a class="social-btn instagram-btn" href="https://www.instagram.com/uknowimadreamer?igsh=ajc2eDd3Ymd4ZDh2" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Genário Costa"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.4" cy="6.6" r="1"></circle></svg><span>@uknowimadreamer</span></a><a class="social-btn telegram-btn" href="https://t.me/umhomemcomsorte" target="_blank" rel="noopener noreferrer" aria-label="Telegram de Genário Costa"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.7 3.4 18.6 19c-.2 1.1-.8 1.4-1.7.9l-4.7-3.5-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.8 8.8-8c.4-.3-.1-.5-.6-.2L6.5 13 1.8 11.5c-1-.3-1-1 .2-1.5L20.4 2.9c.9-.3 1.6.2 1.3.5Z"></path></svg><span>@umhomemcomsorte</span></a></div></footer>
+    </main>
+
+    <nav id="mobileNav" class="mobile-nav"></nav>
+  </div>
+
+  <div id="toast" class="toast"></div>
+
+  <dialog id="manualEntry" class="modal"><form method="dialog" class="modal-card"><div class="modal-head"><div><p class="eyebrow">AJUSTE</p><h2>Nova movimentação</h2></div><button class="close-btn" value="cancel">×</button></div><div class="form-grid two"><label>Data<input id="manualDate" type="date"></label><label>Casa<select id="manualHouse"></select></label><label>Descrição<input id="manualDesc" placeholder="Ex.: bônus convertido"></label><label>Valor (R$)<input id="manualValue" type="number" step="0.01" placeholder="Use negativo para perda"></label></div><div class="action-row"><button value="cancel" class="secondary-btn">Cancelar</button><button id="saveManual" value="default" class="primary-btn">Salvar</button></div></form></dialog>
+
+  <dialog id="quickEntry" class="modal"><form method="dialog" class="modal-card small"><div class="modal-head"><div><p class="eyebrow">NOVA ENTRADA</p><h2>O que deseja registrar?</h2></div><button class="close-btn" value="cancel">×</button></div><div class="quick-grid"><button value="cancel" data-nav="surebet" class="quick-card"><span class="qicon" data-icon="percent"></span><div><b>Surebet</b><small>Calcular arbitragem</small></div></button><button value="cancel" data-nav="spins" class="quick-card"><span class="qicon" data-icon="refresh"></span><div><b>Giros grátis</b><small>Conversão de free spins</small></div></button><button value="cancel" data-nav="freebets" class="quick-card"><span class="qicon" data-icon="freebet"></span><div><b>Freebets</b><small>Documentar e planejar extrações</small></div></button><button value="cancel" data-open="manualEntry" class="quick-card"><span class="qicon" data-icon="manual"></span><div><b>Manual</b><small>Outro ganho ou perda</small></div></button></div></form></dialog>
+
+
+  <dialog id="accountModal" class="modal account-modal"><div class="modal-card small"><div class="modal-head"><div><p class="eyebrow">CONTA</p><h2>Sincronização</h2></div><button class="close-btn" type="button" id="closeAccount">×</button></div><div class="account-info"><span>Conectado como</span><strong id="accountEmail">—</strong><small id="accountSyncText">Dados sincronizados na nuvem</small><small class="account-sync-hint">Atualização automática entre dispositivos enquanto o app estiver aberto.</small></div><div class="action-row"><button id="syncNow" class="secondary-btn" type="button">Sincronizar agora</button><button id="signOutBtn" class="ghost-btn" type="button">Sair</button></div></div></dialog>
+
+  <dialog id="reportImageModal" class="modal report-image-modal"><div class="modal-card report-preview-card"><div class="modal-head"><div><p class="eyebrow" id="imagePreviewEyebrow">IMAGEM</p><h2 id="imagePreviewTitle">Prévia da imagem</h2></div><button class="close-btn" type="button" id="closeReportImage">×</button></div><div class="report-preview-wrap"><img id="reportPreview" alt="Prévia da imagem gerada"></div><div class="action-row report-preview-actions"><button id="shareReportImage" class="secondary-btn report-action-btn share-action" type="button"><span class="report-action-icon" data-icon="share"></span><span class="report-action-copy"><b>Compartilhar</b><small>Enviar imagem</small></span></button><button id="downloadReportImage" class="primary-btn report-action-btn download-action" type="button"><span class="report-action-icon" data-icon="download"></span><span class="report-action-copy"><b>Salvar PNG</b><small>Imagem original</small></span></button></div></div></dialog>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="app.js?v=5910"></script>
+  <script src="card-studio.js?v=5910"></script>
+  <script src="profit-card.js?v=5910"></script>
+</body>
+</html>

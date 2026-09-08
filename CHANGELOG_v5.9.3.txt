@@ -1,0 +1,6 @@
+SureControl v5.9.3
+- Novo logo enviado aplicado ao login e cabeçalho.
+- Logo preparado em PNG com transparência técnica para funcionar nos temas claro e escuro.
+- Botões Compartilhar e Salvar PNG redesenhados com ícones, hierarquia e estados premium.
+- Ações continuam usando exatamente as mesmas funções de compartilhar/exportar.
+- Nenhuma alteração no gerador de card, cálculos, histórico ou mecânicas.

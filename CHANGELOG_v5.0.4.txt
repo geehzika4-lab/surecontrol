@@ -1,0 +1,8 @@
+SureControl v5.0.4
+
+- Remove Últimas movimentações da Home; registros ficam concentrados no Histórico.
+- Atalho Freebets recebe a mesma caixa/contorno cinza dos demais ícones.
+- Corrige contraste da aba Adicionar freebet ativa no claro e escuro.
+- Aumenta a etiqueta do card mantendo o canto inferior esquerdo.
+- Não altera cálculos, ROI, stakes, Freebets, Giros, sincronização ou persistência.
+- Patch sem pasta assets para atualização rápida sobre a v5 existente.

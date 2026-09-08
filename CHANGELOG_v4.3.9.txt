@@ -1,0 +1,7 @@
+SureControl v4.3.9 — correção Extrair Freebet
+
+- Corrige o botão “Extrair agora” que parava antes de abrir a calculadora.
+- Atualiza o fluxo para o novo sistema de múltiplas etiquetas.
+- Ao extrair, abre a calculadora de surebet com a casa da freebet, valor nominal, odd mínima e flag Freebet preenchidos.
+- A segunda casa permanece disponível para completar a cobertura.
+- Mantém a etiqueta “Extração de Freebet” pré-selecionada, permitindo adicionar outras etiquetas depois.

@@ -1,0 +1,6 @@
+SureControl v5.5.0
+- Novo lockup responsivo e transparente sem dependência de imagem de branding.
+- Card Studio redesenhado no conceito aprovado: selos abaixo do confronto, ROI em destaque e layout premium.
+- Detecção reforçada de selos salvos e selos implícitos por Freebet/Aumento.
+- Polimento visual de Comissão, Freebet e Aumento em todos os temas.
+- Pacote PATCH sem assets para atualização rápida sobre a pasta existente.

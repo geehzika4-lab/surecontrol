@@ -1,0 +1,2 @@
+PATCH v5.9.0 — não inclui assets pesados.
+Substitua os arquivos do projeto pela versão deste ZIP e mantenha sua pasta assets, casas.json e team-index.json.

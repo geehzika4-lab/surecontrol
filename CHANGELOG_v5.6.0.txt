@@ -1,0 +1,10 @@
+SureControl v5.6.0
+- Branding unificado: o mesmo logo enviado pelo autor é usado no site, Card Studio e Card de Resultado.
+- Logo tratado com fundo transparente e preservado em alta resolução; sem placa/fundo próprio.
+- Card de surebet: LUCRO ESTIMADO passa a ser a métrica principal; ROI vira informação secundária.
+- Selos do card refinados com ícones quadrados e linguagem visual consistente.
+- Ícones de Freebet, Aumento, Comissão e selos padronizados com a mesma família SVG usada na navegação.
+- Opções Comissão / Freebet / Aumento refeitas como controles quadrados premium, adaptáveis a tema claro/escuro e mobile.
+- Seletor de selos da edição também passa a usar tokens quadrados e cores consistentes.
+- Layout dos selos do card reforçado para várias linhas sem sobrepor confronto, lucro ou casas.
+- Nenhuma alteração nas mecânicas de cálculo, persistência, edição manual, login ou sincronização.

@@ -1,0 +1,9 @@
+SureControl v5.3.0
+
+- Todas as stakes da surebet agora são editáveis.
+- A stake editada passa a ser a referência e as demais são recalculadas automaticamente.
+- Correção visual do campo de stake no mobile e em telas estreitas.
+- Correção dos selos no Card Studio em Graphite, Emerald, Midnight e Ivory, nos formatos Feed, Story e Quadrado.
+- Selos Aumento 30% e Duplo Green receberam cores/ícones próprios também no renderizador legado.
+- Ajustes responsivos da prévia de card e controles.
+- Stack tipográfica preparada para Coolvetica local, com fallback seguro quando a fonte não estiver instalada.

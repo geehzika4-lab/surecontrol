@@ -1,0 +1,5 @@
+SureControl v5.7.0 — PATCH sem assets pesados
+
+Substitua index.html, styles.css, premium.css, app.js, card-studio.js e profit-card.js na sua pasta atual.
+Mantenha sua pasta assets, casas.json e team-index.json.
+O arquivo surecontrol-logo.png permanece incluído por fazer parte do branding da interface/cards.

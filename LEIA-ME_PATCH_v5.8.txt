@@ -1,0 +1,5 @@
+PATCH SureControl v5.8.0
+
+Substitua os arquivos do projeto pelos arquivos deste pacote.
+Mantenha sua pasta assets, casas.json e team-index.json atuais.
+O arquivo surecontrol-card-logo.png é novo e deve ficar ao lado do index.html.

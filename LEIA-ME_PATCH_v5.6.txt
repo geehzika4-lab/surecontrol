@@ -1,0 +1,15 @@
+SureControl v5.6.0 — PATCH SEM ASSETS PESADOS
+
+Substitua na sua pasta atual:
+- index.html
+- app.js
+- styles.css
+- premium.css
+- card-studio.js
+- profit-card.js
+
+Adicione também na raiz do projeto:
+- surecontrol-logo.png
+
+Mantenha a sua pasta assets/, casas.json e team-index.json atuais.
+O pacote não inclui os milhares de escudos/logos já existentes para reduzir o download.

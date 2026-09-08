@@ -1,0 +1,11 @@
+SureControl v5.0.1
+
+- card PNG: escudos aproximados e reposicionados abaixo da marca SureControl
+- etiquetas do card menores, centralizadas e mais discretas
+- ícone Freebet redesenhado em linha monocromática e unificado em claro/escuro
+- removido destaque azul do Freebet fora das etiquetas
+- theme-color branco/preto para combinar com os modos claro e escuro
+- histórico de Surebets responsivo no mobile, sem tabela horizontal
+- histórico de Giros responsivo no mobile, sem tabela horizontal
+- histórico geral refinado para evitar estouro/enquadramento ruim no celular
+- nenhuma alteração em cálculos, armazenamento, sync, freebets, giros ou lógica financeira

@@ -1,0 +1,25 @@
+SURECONTROL — ATUALIZAÇÃO VISUAL
+
+Como usar
+1. Extraia o ZIP e substitua os arquivos do projeto na sua hospedagem habitual.
+2. Mantenha a pasta assets que já existe na sua instalação: ela não veio no ZIP enviado.
+3. Abra pelo servidor ou hospedagem, conforme o README original. Se necessário, recarregue sem cache.
+4. No histórico de surebets, toque em Card. Escolha Oceano, Esmeralda ou Claro e o formato Feed ou Story. Use Salvar PNG ou Compartilhar.
+
+Alterações
+- premium.css: paletas claras/escuras, navegação, painéis, botões, formulários, legibilidade e adaptação ao celular.
+- card-studio.js: novo desenho dos cards e controles de tema/formato. Usa os registros existentes sem modificá-los.
+- index.html: inclui os dois novos arquivos e usa marca tipográfica local, dispensando o logo ausente.
+
+Preservação
+app.js, styles.css, API e todos os demais arquivos originais estão idênticos aos enviados. Não houve mudança nos cálculos, comissões, dados, autenticação, sincronização ou backups. Não há migração de banco.
+
+Validação
+Sintaxe JavaScript conferida. 30 combinações de tema/formato/quantidade de casas verificadas em teste isolado da renderização, com seis casas, valores negativos, Lay, aumento e quatro selos. Registros não foram modificados pelo gerador.
+Não foi realizado teste em navegador nem login real no serviço de nuvem. O teste isolado verifica limites geométricos e execução; não substitui a inspeção visual em um navegador.
+
+Assets
+O pacote enviado não continha assets. Escudos e logos continuam usando os carregadores e fallbacks do projeto original. A disponibilidade das imagens remotas depende das fontes já utilizadas pelo projeto.
+
+Para desfazer apenas esta atualização
+Remova do index.html as referências a premium.css e card-studio.js e a classe sc-premium. O gerador original continua presente e intacto em app.js.

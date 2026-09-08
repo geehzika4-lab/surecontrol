@@ -1,0 +1,12 @@
+SureControl v5.0.0
+
+- Redesign minimalista profissional branco/preto com modo escuro
+- Imagem de fundo discreta e transições entre páginas
+- Banca removida do destaque da Home; continua acessível de forma discreta
+- Navegação principal simplificada; Casas permanece como base de dados
+- Banco local incorporado com 1.914 escudos enviados pelo usuário
+- Busca externa de escudos como fallback via função Vercel + TheSportsDB
+- Escudos automáticos no Histórico, Recentes, prévia do evento e card PNG
+- Fallback com iniciais quando um escudo não é localizado
+- Ícones institucionais monocromáticos; etiquetas mantêm cores funcionais
+- Lógica financeira, freebets, giros, sync, cálculo e relatórios preservados

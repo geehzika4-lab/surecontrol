@@ -1,0 +1,12 @@
+SureControl v5.4.0 — Manual Stakes + Card Seals + Official Branding
+
+- Corrigido o contraste do valor da stake no tema claro: caixa clara e texto preto.
+- Edição de surebets salvas passa a preservar todas as stakes exatamente como digitadas.
+- Ao editar manualmente uma stake, a operação entra em modo manual e recalcula lucro/prejuízo por resultado sem redistribuir as outras stakes.
+- Botão "Equalizar stakes" permite voltar explicitamente à distribuição automática quando desejado.
+- Operações manuais salvam também os lucros por resultado e o índice de referência.
+- Renderizador do Card Studio agora é chamado diretamente, evitando a antiga sobreposição que podia ocultar selos.
+- Selos lidos de specialTags/specialTag (e compatibilidade com tags/seals) e desenhados em Feed, Story e Quadrado, em todos os temas do Card Studio.
+- Novo logo oficial aplicado ao cabeçalho/login e logo com crédito aplicado aos cards de surebet e performance.
+- Ajustes responsivos adicionais para 390 px e menores.
+- Tipografia configurada para priorizar Coolvetica quando disponível no sistema, com fallback seguro.

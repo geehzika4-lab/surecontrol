@@ -1,0 +1,10 @@
+SureControl v5.9.0
+- Card Studio reconstruído para replicar o conceito aprovado.
+- Lucro estimado é o elemento principal.
+- ROI e investimento realinhados e protegidos contra corte.
+- Selos em cápsulas premium com bloco quadrado de ícone.
+- Logo quadrado SureControl aplicado discretamente.
+- Removidas frases de efeito/marketing do card.
+- Rodapé com data/hora de geração e crédito do desenvolvedor.
+- Geometria adaptada a Quadrado, Feed e Story.
+- Mantidas as mecânicas do projeto.

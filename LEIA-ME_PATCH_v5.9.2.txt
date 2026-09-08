@@ -1,0 +1,1 @@
+PATCH v5.9.2 — mantenha sua pasta assets, casas.json e team-index.json. Substitua os arquivos do projeto pelos deste pacote.

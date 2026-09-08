@@ -1,0 +1,8 @@
+SureControl v4.3.6 — correção do aumento de odd
+
+- Aumento percentual agora é aplicado sobre a odd inteira: 4,20 + 25% = 5,25.
+- Stakes e retorno são recalculados usando a nova odd final.
+- Card PNG mostra odd original → odd final quando houver aumento.
+- Card também exibe o percentual de aumento ao lado da stake.
+- Histórico e relatórios passam a diferenciar odd original e odd final.
+- Registros sem aumento continuam iguais.

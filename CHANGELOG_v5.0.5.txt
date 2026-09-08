@@ -1,0 +1,7 @@
+SureControl v5.0.5
+
+- Freebet no atalho usa exatamente a mesma caixa cinza dos demais ícones.
+- Ícones das três abas Freebets forçados a renderizar em todos os estados.
+- Estado selecionado corrigido no claro e escuro.
+- Navegação inferior Freebets padronizada e monocromática.
+- Nenhuma lógica financeira ou de persistência alterada.

@@ -1,0 +1,9 @@
+SureControl v5.7.0
+
+- Remove os rótulos visuais redundantes “SUREBET” e “PERFORMANCE CARD” das imagens geradas.
+- Adiciona data e hora reais de geração em posição discreta no rodapé dos dois cards.
+- Mantém a data da operação como metadado do confronto no card de surebet.
+- Reposiciona o logo no mobile para uma faixa própria acima do título, sem dividir espaço com “Visão geral”.
+- Card de performance passa a usar entryProfit() quando disponível, cobrindo corretamente surebets, giros, freebets e ajustes manuais.
+- Validação adicional do PNG do card de performance antes de abrir a prévia.
+- Nenhuma mecânica de cálculo ou persistência alterada.

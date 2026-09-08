@@ -1,0 +1,3 @@
+SureControl v5.0.8
+- Histórico mobile: ajustado o "x" entre os escudos para ficar centralizado visualmente entre os dois times.
+- Nenhuma lógica alterada.

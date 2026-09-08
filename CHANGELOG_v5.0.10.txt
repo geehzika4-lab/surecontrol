@@ -1,0 +1,4 @@
+SureControl v5.0.10
+- Corrige o fallback de iniciais dos escudos aparecendo junto com o logo carregado.
+- Mantém escudos centralizados, confronto simétrico e card vertical 4:5 da v5.0.9.
+- Nenhuma lógica financeira alterada.

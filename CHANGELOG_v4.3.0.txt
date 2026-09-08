@@ -1,0 +1,23 @@
+SureControl v4.3.0 — revisão visual + Freebets
+
+Principais mudanças
+- Novo sistema visual SureControl com logo em escudo SC e wordmark.
+- Navegação redesenhada com ícones vetoriais próprios, incluindo Freebets.
+- Fundo "Sinal Inteligente" aplicado via CSS, compatível com modo claro e escuro.
+- Card individual da surebet redesenhado com logo, fundo Sinal Inteligente e melhor hierarquia.
+- Etiquetas especiais na calculadora e edição:
+  • Extração de Freebet
+  • Missão pegar Freebet
+  • Missão giros
+  • Aumentada 25%
+- Ação especial em violeta para diferenciar ações especiais do azul institucional.
+- Central de Freebets reorganizada em três áreas:
+  • Adicionar freebet
+  • Freebets a extrair
+  • Freebets extraídas
+- Ao salvar uma nova freebet, ela passa para "Freebets a extrair".
+- Botão "Extrair agora" abre a calculadora com a freebet vinculada e etiqueta "Extração de Freebet".
+- Freebets extraídas ficam separadas, com valor bruto, conversão e resultado líquido.
+- O valor cadastrado da freebet não entra como lucro antes da extração.
+- Custo da missão continua abatido uma única vez do resultado líquido da extração.
+- Dados existentes da v4.2.13 continuam usando o mesmo armazenamento/sincronização.

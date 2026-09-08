@@ -1,0 +1,8 @@
+SureControl v4.4.0 — Semana fixa e Melhor Semana
+
+- Semana do dashboard agora é sempre segunda a domingo.
+- Toda segunda-feira o acumulado semanal reinicia automaticamente.
+- O cartão Semana mostra o intervalo atual (ex.: 17/08 a 23/08).
+- Relatórios e exportações usam Semana atual em vez de últimos 7 dias.
+- Hall de Resultados ganhou Melhor semana, calculada por blocos de segunda a domingo.
+- Card resumido de relatório também exibe a Melhor semana.

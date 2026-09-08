@@ -1,0 +1,6 @@
+SureControl v5.0.9
+- Escudos dos times centralizados e com respiro dentro dos círculos.
+- Histórico mobile com confronto simétrico: time A | × | time B, tudo centralizado.
+- Card PNG de surebet redesenhado para formato vertical 4:5 (1080x1350).
+- Card vertical mantém casas, odds, stakes, ROI, selos e créditos, sem alterar a lógica financeira.
+- Patch sem assets; reutiliza a base de escudos já instalada.

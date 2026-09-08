@@ -1,0 +1,9 @@
+SureControl v5.0.6
+
+- Etiquetas visuais transformadas em selos redondos no Histórico.
+- Seletor da Calculadora redesenhado como selos, sem alterar a lógica de seleção/múltiplos selos.
+- Card PNG usa selos redondos no rodapé inferior esquerdo, em área reservada abaixo das métricas para nunca cobrir valores.
+- Tema escuro do Histórico neutralizado para preto/cinza, removendo o fundo azulado.
+- Cores semânticas dos selos preservadas e adaptadas aos temas claro/escuro.
+- Nenhuma alteração em cálculos, stakes, ROI, freebets, giros, sync ou persistência.
+- Patch sem assets.

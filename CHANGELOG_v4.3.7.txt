@@ -1,0 +1,7 @@
+SureControl v4.3.7 — ROI dinâmico e correção de odds legadas
+
+- ROI do topo do card fica verde quando positivo e vermelho quando negativo
+- cards, histórico e relatórios recalculam a odd final pela fórmula correta do aumento
+- entradas antigas salvas com a fórmula anterior são detectadas e recalculadas automaticamente
+- stakes, investimento, retorno, lucro e ROI dessas entradas legadas são atualizados de forma consistente
+- cache bust atualizado para v4.3.7
